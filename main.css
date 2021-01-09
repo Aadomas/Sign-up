@@ -1,0 +1,64 @@
+body {
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body > div {
+    background-image: url(./Grass.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    float: left;
+    margin-top: 170px;
+    margin-left: 317px;
+}
+
+main > div {
+    background-image: url(./water.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    margin-top: 130px;
+    margin-right: 318px;
+    float:right;
+    background-color: rgb(253, 221, 131);
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+nav { 
+    margin-top: 20px;
+}
+
+a:nth-of-type(1) {
+    text-decoration: none;
+    background-color: blue;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+a:nth-of-type(2) {
+    text-decoration: none;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: blue;
+
+}
+ 
