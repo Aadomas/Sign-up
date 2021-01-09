@@ -20,6 +20,7 @@ body > div {
 }
 
 main > div {
+    color: yellow;
     background-image: url(./water.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -48,6 +49,10 @@ a:nth-of-type(1) {
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
+}
+
+span {
+    color:black;
 }
 
 a:nth-of-type(2) {
